@@ -1,17 +1,14 @@
-public class BinarySearch {
+public class FloorOfNumber {
 
   public static void main(String[] args) {
-    int[] arr = { 2, 3, 4, 15, 16, 18, 22, 45 };
-    int target = 22;
-    int ans = binarySearch(arr, target);
+    int[] arr = { 2, 3, 5, 9, 14, 16, 18 };
+    int target = 15;
+    int ans = floorOfNumber(arr, target);
     System.out.println(ans);
-
   }
 
-  // return the index
-  // return -1 if doesn't exist
+  static int floorOfNumber(int arr[], int target) {
 
-  static int binarySearch(int[] arr, int target) {
     int start = 0;
     int end = arr.length - 1;
 
@@ -30,7 +27,8 @@ public class BinarySearch {
         return mid;
       }
     }
-    return -1;
+    return end;
 
   }
+
 }
