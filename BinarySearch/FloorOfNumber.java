@@ -7,6 +7,8 @@ public class FloorOfNumber {
     System.out.println(ans);
   }
 
+  // return the index of smallest no <= target
+
   static int floorOfNumber(int arr[], int target) {
 
     int start = 0;
