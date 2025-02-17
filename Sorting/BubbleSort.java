@@ -33,3 +33,7 @@ class BubbleSort {
   }
 
 }
+
+// best case- O(N);
+// worst case- O(N^2);
+// Stable = YES;
