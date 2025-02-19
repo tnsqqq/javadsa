@@ -14,8 +14,9 @@ public class DuplicateNumber {
         } else {
           return arr[i];
         }
+      } else {
+        i++;
       }
-      i++;
     }
     return -1;
   }
