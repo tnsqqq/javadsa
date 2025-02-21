@@ -7,6 +7,7 @@ public class Palindrome {
   }
 
   static boolean palindrome(String str) {
+    str = str.toLowerCase();
     if (str == null || str.length() == 0) {
       return true;
     }
