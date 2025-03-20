@@ -21,3 +21,6 @@ public class Seive {
     }
   }
 }
+
+// space- O(n)
+// time- O(N * log(logN))
